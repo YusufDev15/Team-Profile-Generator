@@ -19,6 +19,9 @@ This project requires you to create an application that generates HTML files usi
 4. A sample HTML file will be generated and stored in the Output folder.
 
 
+## Sample HTML file 
+starter/Output/team.html
+
 
 
 ## Techology used 
