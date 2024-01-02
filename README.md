@@ -20,7 +20,7 @@ This project requires you to create an application that generates HTML files usi
 
 
 ## Sample HTML file 
-[Link](starter/Output/team.html)
+[Sample HTML file](starter/Output/team.html)
 
 
 
