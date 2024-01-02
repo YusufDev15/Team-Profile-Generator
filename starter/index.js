@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
+const OUTPUT_DIR = path.resolve(__dirname, "Output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
@@ -208,8 +208,8 @@ const promptIntern = () => {
       },
       {
         type: "input",
-        name: "employedId",
-        message: "What is your inter's employee ID?",
+        name: "employeeId",
+        message: "What is your intern's employee ID?",
         validate: (employeeId) => {
           if (employeeId) {
             return true;
